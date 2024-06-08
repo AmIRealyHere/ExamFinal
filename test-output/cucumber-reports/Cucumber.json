@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-08T09:57:39.727Z",
+        "before": [
+          {
+            "result": {
+              "duration": 42807600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bigshop.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search for a Product",
+        "description": "",
+        "id": "bigshop-search-product;search-for-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bigshop.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the BigShop homepage",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iAmOnTheBigShopHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter aspirator into the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aspirator",
+                  "offset": 8
+                }
+              ],
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iEnterProductIntoTheSearchBar(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the search button",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iClickTheSearchButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 15774200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see a list of products",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iShouldSeeAListOfProducts()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-08T09:57:39.837Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bigshop.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search for a Product",
+        "description": "",
+        "id": "bigshop-search-product;search-for-a-product;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bigshop.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the BigShop homepage",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iAmOnTheBigShopHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter mop into the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mop",
+                  "offset": 8
+                }
+              ],
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iEnterProductIntoTheSearchBar(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the search button",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iClickTheSearchButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see a list of products",
+            "match": {
+              "location": "com.bigshop.step_definitions.SearchDefinitions.iShouldSeeAListOfProducts()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.bigshop.hooks.TestHook.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "BigShop Search Product",
+    "description": "",
+    "id": "bigshop-search-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search/Search.feature",
+    "tags": []
+  }
+]

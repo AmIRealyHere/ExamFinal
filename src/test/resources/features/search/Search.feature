@@ -8,6 +8,6 @@ Feature: BigShop Search Product
     Then I should see a list of products
 
     Examples:
-      |product|
-      |aspirator|
-      |mop|
+      | product   |
+      | aspirator |
+      | mop       |
